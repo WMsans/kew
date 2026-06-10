@@ -485,7 +485,7 @@ void format_filename(char *str)
                 }
         }
 
-        // Trim a decimal number followed by a dash, period, or comma (ignoring whitespace)
+        // Trim a track number followed by a separator (dash, comma, period+space, or whitespace)
         regex_t regex;
         if (regcomp(&regex, STRIP_TRACK_NUMBER, REG_EXTENDED | REG_ICASE) != 0) {
                 return;

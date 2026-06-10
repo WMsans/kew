@@ -21,7 +21,7 @@
 #define __USE_POSIX
 #endif
 
-#define STRIP_TRACK_NUMBER "^([[:space:][:punct:]]*)([[:digit:]]+)([-.][[:digit:]]+)?([[:space:]]*[-.,][[:space:]]*|[[:space:]]+)"
+#define STRIP_TRACK_NUMBER "^([[:space:][:punct:]]*)([[:digit:]]+)([[:space:]]*[-,][[:space:]]*|[.][[:space:]]+|[[:space:]]+)"
 
 /**
  * @brief Generates a random number between the given range.
